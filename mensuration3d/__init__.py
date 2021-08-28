@@ -34,3 +34,14 @@ def cuboid_lsa(l,b,h):
 	sa = 2 * h * (l + b)
 	return sa
 
+def cube_volume(edge):
+    Vol = edge**3
+    return vol
+
+def cube_tsa(edge):
+    tsa = 6 * edge * edge
+    return tsa
+
+def cube_lsa(edge):
+    lsa = 4 * edge * edge
+    return edge
